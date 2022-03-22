@@ -1,0 +1,31 @@
+ Id     Duration CommandLine
+  --     -------- -----------
+   1        2.559 nest g module user      
+   2        2.544 nest g module bookmark  
+   3        4.351 docker-compose up dev-… 
+   4        1.637 docker-compose up dev-… 
+   5       40.772 docker-compose up -d    
+   6        0.328 docker pps
+   7        0.343 docker ps
+   8        0.376 docker logs 7e2
+   9     7:54.623 yarn add -D prisma@lat…
+  10       43.432 yarn add prisma@client
+  11       15.836 yarn add prisma@client
+  12        1.416 npx prisma init
+  13       52.868 npx prisma migrate dev
+  14       15.111 yarn add @prisma/client
+  15       13.115 npx prisma migrate dev
+  16        0.028 Get-History
+  17        2.015 npx prisma generate
+  18       46.063 npx prisma studio
+  19        3.437 nest g module prisma
+  20        2.635 nest g service prisma
+  21       17.655 yarn add class-validat…
+  22        3.409 yarn add class-validat…
+  23        7.140 yarn install
+  24        0.083 rm -rf .\node_modules\
+  25        8.152 rm  .\node_modules\
+  26       21.208 yarn install
+  27        3.583 yarn add class-validat…
+
+Stopped at: 1:01:50
